@@ -14,3 +14,7 @@ print(value.isalnum())  # True
 print(value.startswith("val"))  # True
 print(value.endswith("ue"))  # True
 print(value.find("ue"))  # 3
+print(value[0])  # v
+
+for ch in value:
+    print(ch)
