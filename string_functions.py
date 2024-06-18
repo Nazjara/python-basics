@@ -1,3 +1,5 @@
+import string
+
 value = "value"
 
 print(value.upper())  # VALUE
@@ -18,3 +20,5 @@ print(value[0])  # v
 
 for ch in value:
     print(ch)
+
+print("a" in string.ascii_letters)  # True

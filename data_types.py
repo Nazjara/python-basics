@@ -22,6 +22,7 @@ print(type(number2 // number1))  # int
 # Boolean values conversion
 print(bool('True'))  # True
 print(bool('False'))  # True
+print(bool('Any non-zero value'))  # True
 print(bool(''))  # False
 
 # Integer values conversion
